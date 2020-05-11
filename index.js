@@ -21,10 +21,19 @@ function nowServing(line) {
 function currentLine(line) {
     let checkLine = [];
     if (line.length > 0) {
-        return 'The line is currently empty.';
-    } else {
         for (let i=0; i<line.length; i++) {
             checkLine += (i + 1) + ". " + line[i] + ", ";
         }
-    } return `The line is currently: ${checkLine}`;
+        checkLine = checkLine.slice(0, checkLine.length - 2);
+        return `The line is currently: ${checkLine}`;
+
+    } else {
+        return 'The line is currently empty.';
+    }
 }
+
+console.log(takeANumber(bensWaitingList, "Ben"));
+console.log(takeANumber(bensWaitingList, "Sue"));
+console.log(takeANumber(bensWaitingList, "Joe"));
+
+console.log(currentLine(bensWaitingList));
