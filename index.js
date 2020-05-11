@@ -30,17 +30,3 @@ function currentLine(line) {
     }
 }
 
-console.log(takeANumber(bensWaitingList, 'Nicky'));
-console.log(takeANumber(bensWaitingList, 'Jared'));
-console.log(takeANumber(bensWaitingList, 'Katie'));
-
-
-console.log(currentLine(bensWaitingList));
-
-console.log(nowServing(bensWaitingList));
-console.log(nowServing(bensWaitingList));
-console.log(nowServing(bensWaitingList));
-console.log(nowServing(bensWaitingList));
-console.log(nowServing(bensWaitingList));
-console.log(nowServing(bensWaitingList));
-console.log(nowServing(bensWaitingList));
