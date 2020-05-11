@@ -23,9 +23,26 @@ function currentLine(line) {
     if (line.length === 0) {
         return 'The line is currently empty.';
     } else {
-        for (i=0; i<line.length; i++) {
+        for (let i=0; i<line.length; i++) {
             let j = (i + 1) + '. '
             checkLine.push(j + line[i])
         } return checkLine;
     }
 }
+
+console.log(takeANumber(bensWaitingList, 'Ben'));
+console.log(takeANumber(bensWaitingList, 'Susan'));
+console.log(takeANumber(bensWaitingList, 'Aaron'));
+console.log(takeANumber(bensWaitingList, 'Peter'));
+console.log(takeANumber(bensWaitingList, 'Jack'));
+console.log(takeANumber(bensWaitingList, 'Joyce'));
+
+console.log(currentLine(bensWaitingList));
+
+console.log(nowServing(bensWaitingList));
+console.log(nowServing(bensWaitingList));
+console.log(nowServing(bensWaitingList));
+console.log(nowServing(bensWaitingList));
+console.log(nowServing(bensWaitingList));
+console.log(nowServing(bensWaitingList));
+console.log(nowServing(bensWaitingList));
