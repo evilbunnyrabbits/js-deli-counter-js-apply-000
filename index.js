@@ -20,7 +20,7 @@ function nowServing(line) {
 //checks who's on the line.
 function currentLine(line) {
     let checkLine = [];
-    if (line.length === 0) {
+    if (line.length > 0) {
         return 'The line is currently empty.';
     } else {
         for (let i=0; i<line.length; i++) {
