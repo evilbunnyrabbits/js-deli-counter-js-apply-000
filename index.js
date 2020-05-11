@@ -25,7 +25,7 @@ function currentLine(line) {
     } else {
         for (let i=0; i<line.length; i++) {
             let j = i + 1
-            checkLine.push(j + '. '+ line[i])
+            checkLine.push(j + '. '+ line[i] + ' ')
         } return 'The line is currently: ' + checkLine;
     }
 }
