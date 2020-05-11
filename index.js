@@ -24,7 +24,7 @@ function currentLine(line) {
         return 'The line is currently empty.';
     } else {
         for (let i=0; i<line.length; i++) {
-            let j = i + 1 + line[i]
+            let j = i + 1 + line[i] + ' ';
             checkLine.push(j)
         } return 'The line is currently: ' + checkLine;
     }
