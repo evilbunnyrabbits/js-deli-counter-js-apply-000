@@ -32,10 +32,8 @@ function currentLine(line) {
 
 console.log(takeANumber(bensWaitingList, 'Nicky'));
 console.log(takeANumber(bensWaitingList, 'Jared'));
-console.log(takeANumber(bensWaitingList, 'Aaron'));
-console.log(takeANumber(bensWaitingList, 'Peter'));
-console.log(takeANumber(bensWaitingList, 'Jack'));
-console.log(takeANumber(bensWaitingList, 'Joyce'));
+console.log(takeANumber(bensWaitingList, 'Katie'));
+
 
 console.log(currentLine(bensWaitingList));
 
