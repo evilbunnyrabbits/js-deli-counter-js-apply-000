@@ -30,7 +30,7 @@ function currentLine(line) {
     }
 }
 
-console.log(takeANumber(bensWaitingList, 'Ben'));
+console.log(takeANumber(bensWaitingList, 'Nicky'));
 console.log(takeANumber(bensWaitingList, 'Susan'));
 console.log(takeANumber(bensWaitingList, 'Aaron'));
 console.log(takeANumber(bensWaitingList, 'Peter'));
